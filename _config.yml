@@ -78,7 +78,9 @@ theme: anatole
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@git.coding.net:bluicezhen/bluicezhen.coding.me.git
+  branch: master
 
 # Theme anatole
 archive_generator:
