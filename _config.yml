@@ -91,3 +91,6 @@ archive_generator:
 github: https://github.com/bluicezhen
 weibo: https://weibo.com/bluicezhen
 twitter: https://twitter.com/BluiceZhen
+
+# flowchart
+flowchart: https://cdn.bootcss.com/flowchart/1.8.0/flowchart.min.js
