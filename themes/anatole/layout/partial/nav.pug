@@ -6,10 +6,20 @@
       else
         a(href="/")= __('Home')	
     li
-      if is_archive()
-        a.current(href="/archives")= __('Archive')
+      if is_category("编程之道")
+        a.current(href="/categories/编程之道/")=__("编程之道")
       else
-        a(href="/archives")= __('Archive')	
+        a(href="/categories/编程之道/")=__("编程之道")
+    li
+      if is_category("光影魔术")
+        a.current(href="/categories/光影魔术/")=__("光影魔术")
+      else
+        a(href="/categories/光影魔术/")=__("光影魔术")
+    li
+      if is_category("随笔杂谈")
+        a.current(href="/categories/随笔杂谈/")=__("随笔杂谈")
+      else
+        a(href="/categories/随笔杂谈/")=__("随笔杂谈")
   .information
     .back_btn
       li
