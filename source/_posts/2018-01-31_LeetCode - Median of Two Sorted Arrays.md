@@ -7,7 +7,7 @@ tags:
     - LeetCode
     - 排序
     - C
-summary: LeetCode题目《Median of Two Sorted Arrays》的 $O(log((m+n)/2))$ 解法。
+summary: LeetCode题目《Median of Two Sorted Arrays》的 $O(\frac{m+n}{2})$ 解法。
 ---
 
 **问题描述：**There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be $O(log(m+n))$.
