@@ -96,3 +96,6 @@ twitter: https://twitter.com/BluiceZhen
 
 # flowchart
 flowchart: https://cdn.bootcss.com/flowchart/1.8.0/flowchart.min.js
+
+sitemap:
+  path: sitemap.xml
