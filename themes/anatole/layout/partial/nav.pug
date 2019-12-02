@@ -11,15 +11,25 @@
       else
         a(href="/categories/编程之道/")=__("编程之道")
     li
-      if is_category("光影魔术")
-        a.current(href="/categories/光影魔术/")=__("光影魔术")
+      if is_category("运维之道")
+        a.current(href="/categories/运维之道/")=__("运维之道")
       else
-        a(href="/categories/光影魔术/")=__("光影魔术")
+        a(href="/categories/运维之道/")=__("运维之道")
     li
       if is_category("随笔杂谈")
         a.current(href="/categories/随笔杂谈/")=__("随笔杂谈")
       else
         a(href="/categories/随笔杂谈/")=__("随笔杂谈")
+    li
+      if is_category("500px")
+        a.current(href="https://500px.me/zlb37" target="_blank")=__("500px")
+      else
+        a(href="https://500px.me/zlb37" target="_blank")=__("500px")
+    li
+      if is_category("GitHub")
+        a.current(href="https://github.com/bluicezhen" target="_blank")=__("GitHub")
+      else
+        a(href="https://github.com/bluicezhen" target="_blank")=__("GitHub")
   .information
     .back_btn
       li

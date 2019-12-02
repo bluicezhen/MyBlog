@@ -5,11 +5,11 @@
 # Site
 title: 甄三十七的博客
 subtitle: 寻找冬日里的蓝色牧场
-description: 编程、摄影与生活
+description: 一切有为法，如梦幻泡影；如露亦如电，应作如是观。
 author: 甄三十七, bluice.zhen@gmail.com
 language: zh-cn
 timezone: Asia/Shanghai
-avatar: http://static.zlb37.xyz/ico/avatar.jpg
+# avatar: http://static.zlb37.xyz/ico/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -90,9 +90,9 @@ archive_generator:
   daily: false
 
 # twitter: 
-github: https://github.com/bluicezhen
-weibo: https://weibo.com/bluicezhen
-twitter: https://twitter.com/BluiceZhen
+# github: https://github.com/bluicezhen
+# weibo: https://weibo.com/bluicezhen
+# twitter: https://twitter.com/BluiceZhen
 
 # flowchart
 flowchart: https://cdn.bootcss.com/flowchart/1.8.0/flowchart.min.js
